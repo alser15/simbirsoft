@@ -1,0 +1,4 @@
+PyYAML
+selenium
+pytest
+allure-pytest
