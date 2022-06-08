@@ -17,7 +17,7 @@ from config import GOOGLE_CONF
 def driver() -> WebDriver:
     """
     Фикстура открытия браузера (если нет webdriver, устанавливает его)
-    :yyield WebDriver: временная передача драйвера
+    :yield WebDriver: временная передача драйвера
     """
 
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))

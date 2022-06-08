@@ -1,2 +1,2 @@
-search_input: /html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input
-find_button: /html/body/div[1]/div[3]/form/div[1]/div[1]/div[2]/div[2]/div[5]/center/input[1]
+search_input: //input[@title='Поиск']
+find_button: //div[@class='CqAVzb lJ9FBc']//input[@name='btnK']
