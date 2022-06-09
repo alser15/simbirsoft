@@ -1,4 +1,4 @@
 input_calc: //span[@id='cwos']
-button: (//div[@role='button'][normalize-space()='%s'])[1]
-button_action: (//div[@aria-label='%s'])[1]
-memory_string: (//span[@class='vUGUtc'])[1]
+button: //div[@role='button'][normalize-space()='%s']
+button_action: //div[@aria-label='%s']
+memory_string: //span[@class='vUGUtc']
